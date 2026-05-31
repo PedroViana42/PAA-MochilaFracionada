@@ -1,0 +1,2 @@
+# Projeto desenvolvido com Python puro.
+# Nenhuma biblioteca externa e necessaria nesta etapa.
