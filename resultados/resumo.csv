@@ -1,0 +1,6 @@
+cenario,cargas_disponiveis,cargas_selecionadas,peso_total,valor_total,utilizacao_pct
+cargas,5,3,2200.0,3016.6666666666665,100.0
+cenario_basico,5,3,2200.0,3016.6666666666665,100.0
+cenario_igual_razao,4,4,2100.0,4200.0,95.45454545454545
+cenario_superlotado,6,3,2200.0,4643.75,100.0
+cenario_tudo_cabe,3,3,650.0,1700.0,29.545454545454547

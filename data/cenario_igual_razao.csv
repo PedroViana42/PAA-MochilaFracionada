@@ -1,0 +1,5 @@
+id,descricao,peso_kg,valor_importancia
+C1,Carga A p/ Porto Alegre,500,1000
+C2,Carga B p/ Florianópolis,700,1400
+C3,Carga C p/ Curitiba,300,600
+C4,Carga D p/ São Paulo,600,1200

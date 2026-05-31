@@ -11,8 +11,6 @@ env/
 
 .pytest_cache/
 
-resultados/*
-!resultados/.gitkeep
+resultados/*.gitkeep
 
-slides/*
-!slides/.gitkeep
+slides/*.gitkeep

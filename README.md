@@ -61,7 +61,7 @@ O algoritmo guloso implementado em `src/mochila.py` segue os passos:
 - [x] Organizar arquivos para GitHub.
 - [x] Incluir CSV inicial de exemplo.
 - [x] Implementar algoritmo da mochila fracionada.
-- [ ] Criar cenarios de teste adicionais.
-- [ ] Criar testes e registrar resultados.
-- [ ] Criar graficos.
-- [ ] Criar slides, teoria, pseudocodigo, complexidade e roteiro do video.
+- [x] Criar cenarios de teste adicionais.
+- [x] Criar testes e registrar resultados.
+- [x] Criar graficos.
+- [x] Criar slides, teoria, pseudocodigo, complexidade e roteiro do video.

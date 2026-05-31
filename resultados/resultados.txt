@@ -1,0 +1,70 @@
+======================================================================
+Cenario: cargas
+Capacidade do caminhao: 2200 kg
+Total de cargas disponiveis: 5
+----------------------------------------------------------------------
+ID     Descricao                               Fracao     Peso    Valor
+----------------------------------------------------------------------
+R2     Refrigerados p/ Goiânia                 100.0%    600.0    950.0
+R1     Produtos hospitalares p/ Brasília       100.0%    800.0   1200.0
+R3     Granel fertilizante p/ Rondonópolis      66.7%    800.0    866.7
+----------------------------------------------------------------------
+TOTAL                                                   2200.0   3016.7
+Utilizacao do caminhao: 100.0%
+
+======================================================================
+Cenario: cenario_basico
+Capacidade do caminhao: 2200 kg
+Total de cargas disponiveis: 5
+----------------------------------------------------------------------
+ID     Descricao                               Fracao     Peso    Valor
+----------------------------------------------------------------------
+R2     Refrigerados p/ Goiânia                 100.0%    600.0    950.0
+R1     Produtos hospitalares p/ Brasília       100.0%    800.0   1200.0
+R3     Granel fertilizante p/ Rondonópolis      66.7%    800.0    866.7
+----------------------------------------------------------------------
+TOTAL                                                   2200.0   3016.7
+Utilizacao do caminhao: 100.0%
+
+======================================================================
+Cenario: cenario_igual_razao
+Capacidade do caminhao: 2200 kg
+Total de cargas disponiveis: 4
+----------------------------------------------------------------------
+ID     Descricao                               Fracao     Peso    Valor
+----------------------------------------------------------------------
+C1     Carga A p/ Porto Alegre                 100.0%    500.0   1000.0
+C2     Carga B p/ Florianópolis                100.0%    700.0   1400.0
+C3     Carga C p/ Curitiba                     100.0%    300.0    600.0
+C4     Carga D p/ São Paulo                    100.0%    600.0   1200.0
+----------------------------------------------------------------------
+TOTAL                                                   2100.0   4200.0
+Utilizacao do caminhao: 95.5%
+
+======================================================================
+Cenario: cenario_superlotado
+Capacidade do caminhao: 2200 kg
+Total de cargas disponiveis: 6
+----------------------------------------------------------------------
+ID     Descricao                               Fracao     Peso    Valor
+----------------------------------------------------------------------
+B1     Carga pesada 1 p/ Manaus                100.0%    900.0   2000.0
+B2     Carga pesada 2 p/ Belém                 100.0%    850.0   1800.0
+B3     Carga pesada 3 p/ Fortaleza              56.2%    450.0    843.8
+----------------------------------------------------------------------
+TOTAL                                                   2200.0   4643.8
+Utilizacao do caminhao: 100.0%
+
+======================================================================
+Cenario: cenario_tudo_cabe
+Capacidade do caminhao: 2200 kg
+Total de cargas disponiveis: 3
+----------------------------------------------------------------------
+ID     Descricao                               Fracao     Peso    Valor
+----------------------------------------------------------------------
+A1     Medicamentos urgentes p/ Campo Grande   100.0%    200.0    800.0
+A2     Equipamentos cirurgicos p/ Cuiabá       100.0%    300.0    700.0
+A3     Materiais escolares p/ Rondonópolis     100.0%    150.0    200.0
+----------------------------------------------------------------------
+TOTAL                                                    650.0   1700.0
+Utilizacao do caminhao: 29.5%

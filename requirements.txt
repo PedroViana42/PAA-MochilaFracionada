@@ -1,2 +1,1 @@
-# Projeto desenvolvido com Python puro.
-# Nenhuma biblioteca externa e necessaria nesta etapa.
+matplotlib>=3.7
