@@ -1,0 +1,7 @@
+id,descricao,peso_kg,valor_importancia
+B1,Carga pesada 1 p/ Manaus,900,2000
+B2,Carga pesada 2 p/ Belém,850,1800
+B3,Carga pesada 3 p/ Fortaleza,800,1500
+B4,Carga pesada 4 p/ Recife,750,1200
+B5,Carga pesada 5 p/ Salvador,700,1000
+B6,Carga pesada 6 p/ Vitória,600,800

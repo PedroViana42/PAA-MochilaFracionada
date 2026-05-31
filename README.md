@@ -42,11 +42,15 @@ python src/main.py
 
 O programa le o arquivo `data/cargas.csv`, define a capacidade padrao do caminhao como 2200 kg e chama a funcao `mochila_fracionada`.
 
-## Observacao sobre o algoritmo
+## Algoritmo
 
-O algoritmo da mochila fracionada ainda sera implementado por Alexandre no arquivo `src/mochila.py`.
+O algoritmo guloso implementado em `src/mochila.py` segue os passos:
 
-Atualmente, a funcao `mochila_fracionada(cargas, capacidade)` esta preparada apenas como ponto de integracao com o restante do projeto.
+1. Calcula a razao valor/peso de cada carga.
+2. Ordena as cargas de forma decrescente por essa razao.
+3. Preenche o caminhao tomando cada carga inteira quando couber ou uma fracao quando necessario.
+
+**Complexidade:** O(n log n), dominada pela etapa de ordenacao.
 
 ## Checklist de requisitos do trabalho
 
@@ -56,8 +60,8 @@ Atualmente, a funcao `mochila_fracionada(cargas, capacidade)` esta preparada ape
 - [x] Criar README inicial.
 - [x] Organizar arquivos para GitHub.
 - [x] Incluir CSV inicial de exemplo.
-- [ ] Implementar algoritmo da mochila fracionada.
-- [ ] Criar cenarios de teste adicionais.
-- [ ] Criar testes e registrar resultados.
-- [ ] Criar graficos.
-- [ ] Criar slides, teoria, pseudocodigo, complexidade e roteiro do video.
+- [x] Implementar algoritmo da mochila fracionada.
+- [x] Criar cenarios de teste adicionais.
+- [x] Criar testes e registrar resultados.
+- [x] Criar graficos.
+- [x] Criar slides, teoria, pseudocodigo, complexidade e roteiro do video.

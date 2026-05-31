@@ -65,7 +65,23 @@ def main():
         print("Algoritmo ainda nao implementado em src/mochila.py.")
         print("Aguardando implementacao do Alexandre.")
     else:
-        print(resultado)
+        print(f"{'ID':<6} {'Descricao':<40} {'Fracao':>8} {'Peso (kg)':>10} {'Valor':>8}")
+        print("-" * 76)
+        for item in resultado["itens_selecionados"]:
+            fracao_str = f"{item['fracao'] * 100:.1f}%"
+            print(
+                f"{item['id']:<6} {item['descricao']:<40} {fracao_str:>8} "
+                f"{item['peso_carregado']:>10.1f} {item['valor_obtido']:>8.1f}"
+            )
+        print("-" * 76)
+        print(
+            f"{'TOTAL':<6} {'':<40} {'':>8} "
+            f"{resultado['peso_total']:>10.1f} {resultado['valor_total']:>8.1f}"
+        )
+        print()
+        print(f"Capacidade do caminhao : {resultado['capacidade']:.0f} kg")
+        print(f"Peso total carregado   : {resultado['peso_total']:.1f} kg")
+        print(f"Valor total obtido     : {resultado['valor_total']:.1f}")
 
 
 if __name__ == "__main__":
